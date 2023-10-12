@@ -1,14 +1,21 @@
 #title {
     font-size: 400%;
     width: 60vmax;
+    
+
   }
+body{
+  background-color: lightblue;
+}
 
 .center {
     margin: auto;
     padding: auto;
     text-align: center;
+    
   }
 
+  
 #image {
     max-width: 70%;
     height: auto;

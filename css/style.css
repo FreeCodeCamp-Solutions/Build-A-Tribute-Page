@@ -1,3 +1,26 @@
+body{
+  background-color:lightyellow;
+}
+
+@keyframes colorAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+}
+
+.animated-text {
+      display: inline-block;
+      background: linear-gradient(to right, #ffcc00, #ff6699); /* Change the colors as needed */
+      background-size: 200% 100%;
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+      animation: colorAnimation 5s infinite alternate;
+}
+
 #title {
     font-size: 400%;
     width: 60vmax;
